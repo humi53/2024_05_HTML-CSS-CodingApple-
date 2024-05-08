@@ -1,0 +1,26 @@
+.profile {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  font-size: 16px;
+  text-align: center;
+}
+.content {
+  color: red;
+}
+.point {
+  color: red;
+  font-weight: 900;
+}
+
+p {
+  color: green;
+}
+
+#special {
+  text-align: center;
+  color: blue;
+}
