@@ -95,6 +95,7 @@ body {
 .form-background {
   background-color: gray;
   padding: 30px;
+  margin-top: 200px;
 }
 .form-white {
   background-color: white;
@@ -133,7 +134,7 @@ textarea {
   margin-left: auto;
 }
 
-.flex-container {
+.nav-container {
   display: flex;
   background-color: #fe7675;
   height: 80px;
@@ -141,7 +142,7 @@ textarea {
   justify-content: center;
 }
 
-.flex-item {
+.nav-item {
   /* width: 100px; */
   /* height: 100px; */
   /* background-color: grey; */
