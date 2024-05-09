@@ -1,0 +1,48 @@
+.table-content {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid skyblue;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+}
+
+.table-background {
+  width: 100%;
+  padding: 30px;
+  background-color: lightskyblue;
+}
+
+.table-bottom {
+  position: relative;
+  height: 40px;
+}
+
+.table-bottom p {
+  float: left;
+  vertical-align: bottom;
+  position: absolute;
+  top: 50%;
+}
+.table-bottom input {
+  background-color: #133761;
+  color: white;
+  float: right;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}

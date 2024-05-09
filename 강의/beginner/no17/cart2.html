@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나의 홈페이지</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="table-background">
+      <div class="table-content">
+        <h1>Your shopping cart</h1>
+        <br />
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">ITEM</th>
+              <th>AMOUNT</th>
+              <th>PRICE</th>
+              <th>TOTAL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>사진</td>
+              <td>
+                SONY<br />
+                FE 70-200 mm F2.8 GM OSS
+              </td>
+              <td>1</td>
+              <td>1979달러</td>
+              <th>1979달러</th>
+            </tr>
+            <tr>
+              <td><img src="item1.png" width="50px" alt="" /></td>
+              <td>
+                SONY<br />
+                Sonnar T* E 24mm F1.8ZA
+              </td>
+              <td>1</td>
+              <td>989달러</td>
+              <th>989달러</th>
+            </tr>
+
+            <tr>
+              <th colspan="5" style="text-align: right">2968달러</th>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <div class="table-bottom">
+          <a href="cart.html" class="custom-link">Edit your shopping cart</a>
+          <input type="text" class="input-test" />
+          <button class="btn">구매하기</button>
+        </div>
+        <div style="clear: both"></div>
+      </div>
+    </div>
+  </body>
+</html>
