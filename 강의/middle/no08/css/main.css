@@ -1,0 +1,292 @@
+@font-face {
+  font-family: "NanumSquare";
+  src: url("../../../font/NanumSquareR.woff");
+}
+@font-face {
+  font-family: "NanumSquare";
+  font-weight: 800;
+  src: url("../../../font/NanumSquareB.woff");
+}
+
+body {
+  margin: 0px;
+  font-family: "NanumSquare", "gulim", "dotum", "arial";
+  font-weight: 800;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-content {
+  width: 80%;
+  height: 200px;
+  float: left;
+}
+.blog-img {
+  width: 20%;
+  height: 200px;
+  float: left;
+}
+.blog-profile {
+  width: 50px;
+  float: left;
+}
+.blog-name {
+  float: left;
+}
+.navbar li {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbar a {
+  font-size: 16px;
+  text-decoration: none;
+}
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/shoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  text-align: center;
+  position: relative;
+}
+.main-title {
+  color: white;
+  font-size: 80px;
+  margin-top: 100px;
+}
+.main-content {
+  color: white;
+}
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 60px;
+  width: 150px;
+}
+.explain-box {
+  width: 80%;
+  max-width: 500px;
+  background: #eee;
+  padding: 20px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 160px;
+  box-sizing: border-box;
+}
+
+.form-background {
+  background-color: gray;
+  padding: 30px;
+  margin-top: 30px;
+}
+.form-white {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+.yellow-button {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+}
+
+.nav-container {
+  display: flex;
+  background-color: #fe7675;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: grey; */
+  margin: 5px;
+  padding: 12px;
+  color: white;
+  font-size: 28px;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.test {
+  width: 50vw;
+  height: 50vw;
+  background-color: gray;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+  .product-container {
+    flex-wrap: wrap;
+  }
+  .product-item {
+    flex: 1 1 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-title {
+    font-size: 10px;
+  }
+  .product-container {
+    flex-wrap: wrap;
+  }
+  .product-item {
+    flex: 1 1 100%;
+  }
+  /* .product-container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .product-item {
+    flex: initial;
+  } */
+}
+.product-container {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+  margin-left: 60px;
+  margin-right: 60px;
+  justify-content: space-around;
+}
+
+.product-item {
+  min-width: 140px;
+  margin: 5px;
+  padding: 12px;
+  text-align: center;
+}
+.product-item h4,
+.product-item p {
+  margin-top: 8px;
+}
+
+.product-container i {
+  background-color: burlywood;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.form-white i {
+  background-color: burlywood;
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+  padding: 3px;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 2px;
+}
+
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+.shop-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 1s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+.rollup {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all 1s;
+  color: white;
+  font-size: 30px;
+  padding: 12px;
+}
+.shop-item img:hover ~ .rollup,
+.rollup:hover {
+  top: 50%;
+}
