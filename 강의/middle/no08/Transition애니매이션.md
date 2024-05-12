@@ -20,3 +20,10 @@
 - 개발자 도구 : ... Animations 탭 누르고 동작. 분석.
 
 - 숙제는 더큰 투명한 div 안에 동작할 div를 넣어서 접근하는 방식으로 처리
+
+- 형제 요소 제어
+
+```css
+.shop-item img:hover ~ .rollup,
+.rollup:hover
+```
