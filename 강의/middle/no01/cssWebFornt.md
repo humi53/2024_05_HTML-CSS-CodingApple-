@@ -26,7 +26,7 @@
 
 어짜피 ttf나 woff 둘다 IE8 이하에선 적용되지 않습니다. 자유롭게 woff를 사용하도록 합니다.
 
-나눔스퀘어 woff 버전 : https://github.com/moonspam/NanumSquare
+나눔스퀘어 woff 버전 : `https://github.com/moonspam/NanumSquare`
 
 ## 구글폰트
 
