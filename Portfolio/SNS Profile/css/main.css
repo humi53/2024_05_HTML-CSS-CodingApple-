@@ -11,109 +11,43 @@ body {
   margin: 0px;
   font-family: "NanumSquare";
   font-weight: 800;
+  background-color: #f7f9fc;
 }
-
-.mycard {
-  padding: 30px;
-  margin-top: 10px;
-  border: 1px solid #d2d2d2;
+.white-box {
+  padding: 20px;
   border-radius: 5px;
+  box-shadow: 0.5px 0.5px 2px 1px #eee;
+  background-color: white;
 }
-
-.user-contact div * {
-  margin: 0;
-}
-.user-contact img {
-  width: 150px;
-  height: 150px;
-}
-.user-detail * {
-  margin: 6px 0;
-  align-items: end;
-}
-
 .text-sky {
   color: #70b9f7;
 }
-.bc-sky {
-  background-color: #70b9f7 !important;
-}
-.btn-sky {
+.sky-btn {
   background-color: #70b9f7;
   color: white;
   padding: 10px 24px 4px;
   border-radius: 4px;
   border: none;
 }
-.btn-sky:hover {
+.sky-btn:hover {
   background-color: #6fb2ec;
 }
-.btn-sky:active {
+.sky-btn:active {
   background-color: #6ca8dd;
 }
-.user-profile {
-  width: 450px;
-  background-color: #eee;
-}
-.user-detail {
-  width: 420px;
-  background-color: #eee;
-}
-.bottomline {
-  height: 2px;
-  background-color: #e8e8e8;
-  bottom: 0px;
-}
-.profile-menu {
+
+.user-contact {
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
-  align-items: end;
-  margin: 0px -12px 6px;
 }
-.profile-menu > div {
-  padding: 0;
-}
-.profile-menu div > p {
-  text-align: center;
-  padding: 0 20px;
-  margin: 15px 0px 4px;
-}
-.menu-profile {
-  width: 120px;
-}
-.menu-blank {
-  width: 100%;
+.user-img {
+  width: 160px;
 }
 
-.profile-works p {
-  margin: 0;
-  padding: 0;
-}
-.skill-items {
-  display: flex;
-  flex-wrap: wrap;
-}
-.skill-items p {
-  border: 1px solid #e8e8e8;
-  padding: 1px 16px;
-  margin: 4px;
-  border-radius: 20px;
-}
-.etc {
-  padding: 0;
-  margin: 30px 0;
-}
-.signup {
-  display: block;
-  flex-direction: column;
-  text-align: center;
-}
-.signup p,
-.signup i {
-  margin: 12px;
-}
-
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
   .container {
     min-width: 1200px;
   }
-}
+} */
