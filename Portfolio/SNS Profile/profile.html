@@ -21,32 +21,41 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div class="container bg-secondary">
-      <section class="user-container row white-box">
-        <div class="user-profile col-12">
-          <div class="user-contact" style="background-color: blueviolet">
-            <div style="background-color: tomato; margin-right: 10px">
-              <img src="img/사막여우04.jpg" class="user-img rounded-circle" />
-            </div>
-            <div style="background-color: orange">
-              <h1>Yo Pheu</h1>
-              <p>etc. Programer</p>
-              <p class="user-address text-sky">
-                <i class="fas fa-map-marker-alt"> </i> 광주광역시 광산구
-              </p>
-              <button class="sky-btn">Contect</button>
+    <div class="container">
+      <section class="user-container white-box">
+        <div class="row">
+          <div class="user-profile col-md-7">
+            <div class="user-contact">
+              <div class="user-img">
+                <img
+                  src="img/사막여우04.jpg"
+                  class="rounded-circle"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="user-text">
+                <h1>Yo Pheu</h1>
+                <p>etc. Programer</p>
+                <p class="user-address text-sky">
+                  <i class="fas fa-map-marker-alt"> </i> 광주광역시 광산구
+                </p>
+                <button class="sky-btn">Contect</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="user-detail">
-          <p class="col-3">Location</p>
-          <p class="col-9">서울 마포구</p>
-          <p class="col-3">Age</p>
-          <p class="col-9">85년생</p>
-          <p class="col-3">Experlence</p>
-          <p class="col-9">신입</p>
-          <p class="col-3">School</p>
-          <p class="col-9">인터넷소프트웨어학과</p>
+          <div class="user-detail col-md-5">
+            <div class="rightline"></div>
+            <div class="user-detail-text">
+              <label>Location</label>
+              <p>광주광역시 광산구</p>
+              <label>Age</label>
+              <p>85년생</p>
+              <label>Experlence</label>
+              <p>신입</p>
+              <label>School</label>
+              <p>인터넷소프트웨어학과</p>
+            </div>
+          </div>
         </div>
       </section>
       <div class="profile-menu">
@@ -55,60 +64,101 @@
           <div class="bottomline bc-sky"></div>
         </div>
         <div class="menu-blank">
-          <p></p>
+          <p>&nbsp;</p>
           <div class="bottomline"></div>
         </div>
       </div>
-      <section class="profile-container row">
-        <div class="profile-works mycard col-12">
-          <h3>WORKS</h3>
-          <p>Java를 이용한 BlackJack Program</p>
-          <p>React To-do app</p>
-          <p>Css Landing Page</p>
-          <p>Css 반응형 Web Page</p>
-          <p>C# Socket Program ...</p>
-          <p>Spring Web Page ...</p>
-          <p>Paython Web Page ...</p>
-        </div>
-        <div class="profile-detailExtra mycard col-12">
-          <div>
-            <h3>ABOUT</h3>
-            <p class="mt-4">
-              fornt-end와 back-end, Database의 간단한 쿼리를 즐기지만 가장
-              즐거워하고 지향하는 포지션은 back-end 입니다.Javascript와 CSS같은
-              기초를 즐기고, Reack도 흥미롭게 보고 있지만, SpringFramework 같은
-              back-end 포지션을 집중하고 싶습니다. 복잡성 있는 query를 작성하는
-              것을 좋아합니다. 최근에 흥미를 가지고 있는것은 Python을 이용한
-              back-end와 Flutter를 이용한 모바일 개발에 관심을 가지고 있습니다.
-              여러가지 알고리즘을 학습하고 싶어하고, 최신기술의 아이디어에
-              관심을 가지고 있습니다.
-            </p>
-            <br /><br />
-          </div>
-          <div class="bottomline my-4"></div>
-          <div class="skill-contanier">
-            <h3>SKILLS</h3>
-            <div class="skill-items">
-              <p>Java</p>
-              <p>SpringFramework</p>
-              <p>DataBase</p>
-              <p>Python</p>
-              <p>Reack</p>
-              <p>Flutter</p>
-              <p>HTML5</p>
-              <p>JavaScript</p>
-              <p>CSS3</p>
+      <section class="profile-container">
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <div class="profile-works white-box">
+              <h3>WORKS</h3>
+              <p>Java를 이용한 BlackJack Program</p>
+              <p>React To-do app</p>
+              <p>Css Landing Page</p>
+              <p>Css 반응형 Web Page</p>
+              <p>C# Socket Program ...(계획)</p>
+              <p>Spring Web Page ...(계획)</p>
+              <p>Paython Web Page ...(계획)</p>
             </div>
           </div>
-        </div>
-        <div class="etc col-12">
-          <div class="signup mycard">
-            <i class="fas fa-burn fa-4x text-sky"></i>
-            <p>Find me at Linkedout.com</p>
-            <button class="btn-sky">Sign Up</button>
-            <p class="text-sky">Already a member?</p>
+          <div class="col-12 col-md-6">
+            <div class="profile-detailExtra white-box">
+              <div>
+                <h3>ABOUT</h3>
+                <p class="mt-4">
+                  fornt-end와 back-end, Database의 간단한 쿼리를 즐기지만 가장
+                  즐거워하고 지향하는 포지션은 back-end 입니다.Javascript와
+                  CSS같은 기초를 즐기고, React도 흥미롭게 보고 있지만,
+                  SpringFramework 같은 back-end 포지션을 집중하고 싶습니다.
+                  복잡성 있는 query를 작성하는 것을 좋아합니다. 최근에 흥미를
+                  가지고 있는것은 Python을 이용한 back-end와 Flutter를 이용한
+                  모바일 개발에 관심을 가지고 있습니다. 여러가지 알고리즘을
+                  학습하고 싶어하고, 최신기술의 아이디어에 관심을 가지고
+                  있습니다.
+                </p>
+                <br /><br />
+              </div>
+              <div class="skill-contanier">
+                <div class="bottomline"></div>
+                <br />
+                <h3>SKILLS</h3>
+                <div class="skill-items">
+                  <p>Java</p>
+                  <p>SpringFramework</p>
+                  <p>DataBase</p>
+                  <p>Python</p>
+                  <p>Reack</p>
+                  <p>Flutter</p>
+                  <p>HTML5</p>
+                  <p>JavaScript</p>
+                  <p>CSS3</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="friends visually-hidden">친구들</div>
+          <div class="col-12 col-md-3">
+            <div class="etc">
+              <div class="signup white-box">
+                <i class="fas fa-burn fa-4x text-sky"></i>
+                <p>Find me at Linkedout.com</p>
+                <button class="sky-btn">Sign Up</button>
+                <p class="text-sky">Already a member?</p>
+              </div>
+              <div class="friends">
+                <div class="freinds-title">
+                  <p>People You Might Know</p>
+                  <div class="bottomline"></div>
+                </div>
+                <div class="friends-list">
+                  <div class="friend-box">
+                    <div class="friend-img">
+                      <img src="img/profile-pic.png" style="width: 100%" />
+                    </div>
+                    <div class="friend-text">
+                      <p>Jason Derulo</p>
+                      <p class="job-position">Developer</p>
+                      <p class="text-sky">
+                        <i class="fas fa-map-marker-alt"> </i> Seoul
+                      </p>
+                    </div>
+                  </div>
+                  <div class="friend-box">
+                    <div class="friend-img">
+                      <img src="img/profile-pic.png" style="width: 100%" />
+                    </div>
+                    <div class="friend-text">
+                      <p>Logan Daul</p>
+                      <p class="job-position">Developer</p>
+                      <p class="text-sky">
+                        <i class="fas fa-map-marker-alt"> </i> Busan
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
