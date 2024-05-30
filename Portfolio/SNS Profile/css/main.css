@@ -168,6 +168,7 @@ p {
 }
 .friend-img {
   width: 80px;
+  margin-right: 10px;
 }
 .friend-box {
   display: flex;
@@ -175,6 +176,15 @@ p {
 }
 .job-position {
   color: #959697;
+}
+.friend-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.friend-text p {
+  margin: 0;
+  padding: 0;
+  line-height: 120%;
 }
 
 @media screen and (min-width: 768px) {
