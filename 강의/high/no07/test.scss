@@ -30,6 +30,9 @@
 @mixin column($col) {
   width: (100% / (12 / $col));
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row {
   box-sizing: border-box;

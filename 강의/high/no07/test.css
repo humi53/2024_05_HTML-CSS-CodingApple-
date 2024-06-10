@@ -32,99 +32,171 @@
 .row .col-1 {
   width: 8.3333333333%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-2 {
   width: 16.6666666667%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-3 {
   width: 25%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-4 {
   width: 33.3333333333%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-5 {
   width: 41.6666666667%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-6 {
   width: 50%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-7 {
   width: 58.3333333333%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-8 {
   width: 66.6666666667%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-9 {
   width: 75%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-10 {
   width: 83.3333333333%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-11 {
   width: 91.6666666667%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .row .col-12 {
   width: 100%;
   padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (max-width: 768px) {
   .row .col-md-1 {
     width: 8.3333333333%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-2 {
     width: 16.6666666667%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-3 {
     width: 25%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-4 {
     width: 33.3333333333%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-5 {
     width: 41.6666666667%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-6 {
     width: 50%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-7 {
     width: 58.3333333333%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-8 {
     width: 66.6666666667%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-9 {
     width: 75%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-10 {
     width: 83.3333333333%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-11 {
     width: 91.6666666667%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .row .col-md-12 {
     width: 100%;
     padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }/*# sourceMappingURL=test.css.map */
