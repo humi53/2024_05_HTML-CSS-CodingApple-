@@ -1,0 +1,130 @@
+.sh-list li {
+  list-style: none;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+.sh-list li:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+.alert-box-green, .alert-box-blue, .alert-box-yellow {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background-color: green;
+  color: white;
+}
+
+.alert-box-yellow {
+  background-color: orange;
+}
+
+.alert-box-blue {
+  background-color: skyblue;
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row .col-1 {
+  width: 8.3333333333%;
+  padding: 15px;
+}
+.row .col-2 {
+  width: 16.6666666667%;
+  padding: 15px;
+}
+.row .col-3 {
+  width: 25%;
+  padding: 15px;
+}
+.row .col-4 {
+  width: 33.3333333333%;
+  padding: 15px;
+}
+.row .col-5 {
+  width: 41.6666666667%;
+  padding: 15px;
+}
+.row .col-6 {
+  width: 50%;
+  padding: 15px;
+}
+.row .col-7 {
+  width: 58.3333333333%;
+  padding: 15px;
+}
+.row .col-8 {
+  width: 66.6666666667%;
+  padding: 15px;
+}
+.row .col-9 {
+  width: 75%;
+  padding: 15px;
+}
+.row .col-10 {
+  width: 83.3333333333%;
+  padding: 15px;
+}
+.row .col-11 {
+  width: 91.6666666667%;
+  padding: 15px;
+}
+.row .col-12 {
+  width: 100%;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .row .col-md-1 {
+    width: 8.3333333333%;
+    padding: 15px;
+  }
+  .row .col-md-2 {
+    width: 16.6666666667%;
+    padding: 15px;
+  }
+  .row .col-md-3 {
+    width: 25%;
+    padding: 15px;
+  }
+  .row .col-md-4 {
+    width: 33.3333333333%;
+    padding: 15px;
+  }
+  .row .col-md-5 {
+    width: 41.6666666667%;
+    padding: 15px;
+  }
+  .row .col-md-6 {
+    width: 50%;
+    padding: 15px;
+  }
+  .row .col-md-7 {
+    width: 58.3333333333%;
+    padding: 15px;
+  }
+  .row .col-md-8 {
+    width: 66.6666666667%;
+    padding: 15px;
+  }
+  .row .col-md-9 {
+    width: 75%;
+    padding: 15px;
+  }
+  .row .col-md-10 {
+    width: 83.3333333333%;
+    padding: 15px;
+  }
+  .row .col-md-11 {
+    width: 91.6666666667%;
+    padding: 15px;
+  }
+  .row .col-md-12 {
+    width: 100%;
+    padding: 15px;
+  }
+}/*# sourceMappingURL=test.css.map */

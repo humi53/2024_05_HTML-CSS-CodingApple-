@@ -1,0 +1,11 @@
+box {
+  margin: 0;
+}
+div {
+  box-sizing: border-box;
+}
+
+$메인칼라: brown;
+
+@mixin 믹스인이름() {
+}

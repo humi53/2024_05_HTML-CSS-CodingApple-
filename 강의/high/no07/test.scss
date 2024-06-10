@@ -1,0 +1,53 @@
+.sh-list {
+  li {
+    list-style: none;
+    padding: 15px;
+    border: 1px solid #eee;
+  }
+  li:hover {
+    background-color: skyblue;
+    color: white;
+  }
+}
+
+.alert-box-green {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background-color: green;
+  color: white;
+}
+.alert-box-yellow {
+  @extend .alert-box-green;
+  background-color: orange;
+}
+
+.alert-box-blue {
+  @extend .alert-box-green;
+  background-color: skyblue;
+}
+
+@mixin column($col) {
+  width: (100% / (12 / $col));
+  padding: 15px;
+}
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  @for $i from 1 through 12 {
+    .col-#{$i} {
+      @include column($i);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    @for $i from 1 through 12 {
+      .col-md-#{$i} {
+        @include column($i);
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.main-bg h4 {
+  font-size: 16px;
+}
+.main-bg button {
+  color: red;
+}
+
+.box-red, .box-blue, .box-green {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.box-green {
+  background-color: green;
+}
+
+.box-blue {
+  background-color: blue;
+}
+
+.box-red {
+  background-color: red;
+}
+
+.btn-blue, .btn-red, .btn-green {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  color: green;
+}
+
+.btn-red {
+  color: red;
+}
+
+.btn-blue {
+  color: blue;
+}
+
+.background {
+  background-color: #2a4cb2;
+  font-size: 32px;
+}
+
+.box {
+  color: #2a4cb2;
+  width: 100%;
+  font-size: 18px;
+}/*# sourceMappingURL=test.css.map */

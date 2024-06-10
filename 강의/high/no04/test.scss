@@ -1,0 +1,14 @@
+$main-color: #2a4cb2;
+$serve-color: #eeeeee;
+$basic-size: 16px;
+
+.background {
+  background-color: $main-color;
+  font-size: ($basic-size / 3);
+}
+
+.box {
+  color: $main-color;
+  width: 100%;
+  font-size: $basic-size + 2px;
+}

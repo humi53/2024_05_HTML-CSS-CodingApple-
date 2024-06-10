@@ -1,0 +1,61 @@
+.main-bg {
+  h4 {
+    font-size: 16px;
+  }
+  button {
+    color: red;
+  }
+}
+
+%box {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.box-green {
+  @extend %box;
+  background-color: green;
+}
+
+.box-blue {
+  @extend %box;
+  background-color: blue;
+}
+.box-red {
+  @extend %box;
+  background-color: red;
+}
+
+%btn {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  @extend %btn;
+  color: green;
+}
+.btn-red {
+  @extend %btn;
+  color: red;
+}
+.btn-blue {
+  @extend %btn;
+  color: blue;
+}
+
+$main-color: #2a4cb2;
+$serve-color: #eeeeee;
+$basic-size: 16px;
+
+.background {
+  background-color: $main-color;
+  font-size: ($basic-size * 2);
+}
+
+.box {
+  color: $main-color;
+  width: 100%;
+  font-size: $basic-size + 2px;
+}

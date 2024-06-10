@@ -1,0 +1,60 @@
+ul {
+  list-style-type: none;
+  border: 1px solid #e0e0e0;
+  margin: 20px;
+  li {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+  }
+  li.active {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: white;
+  }
+}
+
+%alert {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+@mixin color-style($font, $back, $border) {
+  color: $font;
+  border-color: $border;
+  background-color: $back;
+}
+
+.green-alert {
+  @extend %alert;
+  @include color-style(#4f865a, #dff0d7, #dceed3);
+}
+.blue-alert {
+  @extend %alert;
+  @include color-style(#5c708f, #d9edf7, #c6e9f2);
+}
+.yello-alert {
+  @extend %alert;
+  @include color-style(#93703b, #fcf8e3, #fcf4e4);
+}
+%col {
+  padding: 15px;
+  background-color: #e6e1ea;
+  border: 1px solid #c9c1d4;
+}
+.row {
+  margin: 20px;
+  display: flex;
+  .col-6 {
+    @extend %col;
+    width: 50%;
+  }
+  .col-4 {
+    @extend %col;
+    width: 33.33%;
+  }
+  .col-3 {
+    @extend %col;
+    width: 25%;
+  }
+}
