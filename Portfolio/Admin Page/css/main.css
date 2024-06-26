@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  background: #484bb3;
+  position: fixed;
+  z-index: 5;
+  color: white;
+  transition: all 0.5s;
+  transform: translateX(-100px);
+}
+.sidebar div {
+  margin: 12px 0px 0px 15px;
+}
+.sidebar:hover {
+  transition: all 0.5s;
+  transform: translateX(0px);
+}
+.sidebar i {
+  transition: all 0.5s;
+  transform: translateX(100px);
+}
+.sidebar:hover i {
+  transform: translateX(0px);
+}
+
+.content {
+  margin-left: 50px;
+}
+
+.navbar-nav li {
+  padding: 0 12px;
+}
+
+.nav-search button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.nav-search input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: width 1s;
+}
+.nav-search input:focus {
+  width: 500px;
+}
+
+.card {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.dashboard .card .card-left {
+  width: 10px;
+  background-color: gray;
+}
+.dashboard .card .card-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px; /* 원하는 너비로 조정 */
+  height: 100%;
+  background-color: #007bff; /* 원하는 색상으로 조정 */
+  border-top-left-radius: 5px; /* 모서리를 둥글게 만들고 싶다면 */
+  border-bottom-left-radius: 5px; /* 모서리를 둥글게 만들고 싶다면 */
+}
+.dashboard .card .color-gray {
+  color: #808080;
+}
+.dashboard .card .bg-skyblue::before {
+  background-color: skyblue;
+}
+.dashboard .card .bg-green::before {
+  background-color: limegreen;
+}
+.dashboard .card .bg-pupple::before {
+  background-color: blueviolet;
+}
+.dashboard .card .bg-orange::before {
+  background-color: orange;
+}
+
+.task-times {
+  padding: 0;
+}
+.task-times ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.task-times li {
+  padding: 12px 18px;
+  border-bottom: 1px solid #ccc;
+}
+.task-times li:first-child {
+  border-top: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.task-times li:last-child {
+  border-bottom: none;
+}
+.task-times li > div {
+  background-color: #007bff;
+  color: white;
+  font-size: 12px;
+  padding: 0px 7px;
+  margin: 6px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
